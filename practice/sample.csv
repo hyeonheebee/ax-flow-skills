@@ -1,0 +1,7 @@
+record_id,task,owner,due_date,status
+A101,Review brief,Alex,2026-11-03,open
+A102,Prepare notes,Sam,2026/11/04,open
+A103,Prepare notes,Sam,03/04/2026,open
+A104,Check output,,2026-11-06,done
+A102,Prepare notes,Sam,2026/11/04,open
+A105,Test API,Lee,,open
