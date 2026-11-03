@@ -29,4 +29,10 @@ $ax-data-clean Inspect practice/sample.csv. Count missing values, repeated IDs, 
 
 For the sample, the date `03/04/2026` and the repeated ID `A102` are intentionally ambiguous. A good first response flags both instead of silently changing or deleting them.
 
+For a folder with many tables, start with:
+
+```text
+$ax-data-clean Make a compact data map for this task. Calculate file counts, sizes, headers, and row counts locally. Show me only the most relevant tables and why they matter. Do not paste full data or clean anything yet.
+```
+
 These skills do not grant permissions or override the rules of a particular task or environment. Use only tools and data allowed in that environment.

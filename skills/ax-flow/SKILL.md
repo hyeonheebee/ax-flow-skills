@@ -22,6 +22,7 @@ Wait for the user's decision when these lines expose an unresolved choice, subst
 ## Work and decisions
 
 - Read the relevant requirements and inspect the starting state before changing it. Summarize the problem in the user's terms.
+- For large datasets, ask local tools for file metadata and aggregate counts before reading rows. Keep tool output short so the user and model can focus on the files relevant to the task.
 - Make the smallest useful change, then verify it. Distinguish an attempted test from a passed test and a claimed result from something personally observed.
 - Record meaningful decisions: what was chosen, why, and the tradeoff or alternative that mattered. Attribute the user's own choices accurately; do not invent their reasoning.
 - When relevant, explain the data path (input, transformation, storage, output), who may access each part, where permissions are enforced, and why the chosen algorithm or data source fits. Mark unknowns instead of guessing.
